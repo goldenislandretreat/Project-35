@@ -1,9 +1,10 @@
 body {
+body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #000000; /* Màu nền đen trùng với màu nền logo */
 }
 
 header {
@@ -47,11 +48,15 @@ nav ul li a {
 
 main {
     padding: 20px;
-    background: #ffffff;
+    background: #FBF5D6; /* Màu trắng kem */
 }
 
 section {
     margin-bottom: 20px;
+    background: #ffffff; /* Màu trắng */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
@@ -67,6 +72,12 @@ article h3 {
     margin-top: 0;
 }
 
+article img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
 footer {
     background: #0D3220;
     color: #ffffff;
@@ -76,3 +87,4 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
