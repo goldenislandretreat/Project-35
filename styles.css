@@ -1,5 +1,4 @@
 body {
-body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -8,25 +7,35 @@ body {
 }
 
 header {
-    background: #0D3220; /* Màu xanh lá cây từ logo */
-    color: #ffffff;
-    padding: 20px 0;
+    position: relative;
     text-align: center;
+    color: #ffffff;
 }
 
-header .logo img {
-    width: 100px;
+.header-background img {
+    width: 100%;
+    height: auto;
+}
+
+header .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5em;
     color: #D0A85F; /* Màu vàng từ logo */
+    position: relative;
+    top: 50px;
 }
 
 header p {
     font-size: 1.2em;
     color: #FBF5D6; /* Màu kem từ logo */
+    position: relative;
+    top: 60px;
 }
 
 nav ul {
@@ -87,4 +96,3 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
