@@ -1,0 +1,24 @@
+/images
+    /logo
+        logo.png
+    /header
+        header-background.jpg
+    /categories
+        discover-tam-diep.jpg
+        culture-festivals.jpg
+        local-cuisine.jpg
+        tourism-activities.jpg
+        traveler-stories.jpg
+        conservation-sustainability.jpg
+        travel-news.jpg
+        travel-tips.jpg
+        upcoming-events.jpg
+    /articles
+        article-1.jpg
+        article-2.jpg
+        article-3.jpg
+    /backgrounds
+        background.jpg
+    /posts
+        post-image-1.jpg
+        post-image-2.jpg
